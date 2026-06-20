@@ -1,0 +1,12 @@
+{
+  "name": "owasp-bot",
+  "version": "1.0.0",
+  "description": "we want to make  a multifunction Discord bot for the OWASP Las Vegas Chapter. This bot is designed to be hosted on our own server and help manage community activities, welcome new members, share cybersecurity resources, and support chapter events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
