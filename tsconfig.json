@@ -9,6 +9,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  // tells TypeScript **which files and folders should be compiled. 
+  // tells TypeScript which files and folders should be compiled. 
   "include": ["src"]
 }
