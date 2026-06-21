@@ -26,7 +26,7 @@ const client = new Client({
 async function sendWelcome(channel: GuildTextBasedChannel, member: GuildMember){
     const { buffer, ext } = await buildWelcomeCard(member);
     const attachment = new AttachmentBuilder(buffer, { name: `welcome.${ext}` });
-    channel.send({ content: `Welcome to the server, ${member}!`, files: [attachment] });
+    channel.send({ content: `Welcome to the OWASP VEGAS server, ${member}!`, files: [attachment] });
 }
 
 // Listen for the guildMemberAdd event, which is emitted when a new member joins the server.
